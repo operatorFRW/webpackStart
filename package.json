@@ -1,0 +1,16 @@
+{
+  "name": "webpackstart",
+  "version": "1.0.0",
+  "description": "#Start Данное руководство будет описывать создание проекта с 0. Оно будет разбито на шаги и в этом описании, каждый шаг будет помечен заголовком №{Название шага} и закреплен коммитом с аналогичным названием Проект будет представлять из себя SPA на React Для комфортной разработки будут введены TypeScript, Eslint, Prettier, pre-commit линтеры Для сборки проекта будет использоваться webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
