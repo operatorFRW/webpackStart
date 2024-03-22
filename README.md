@@ -41,3 +41,24 @@
 - https://habr.com/ru/companies/domclick/articles/510812/
 - https://builtin.com/software-engineering-perspectives/npm-ci-vs-npm-install
 - https://dev.to/grawl/pochiemu-nie-nado-kommitit-papku-nodemodules-e37
+
+#Шаг-2
+- Для начала внедрим TS на проект (npm i typescript -D)
+- В корне проекта создадим файл tsconfig.json, подробнее обо всех опциях этого файла можно узнать тут https://habr.com/ru/articles/542234/ или в офиц доке TS
+- Далее внедряем eslint, делаем npx eslint init
+- Устанавливаем prettier по гайду https://dev.to/eprikhodko/eslint-prettier-vs-code-create-react-app-airbnb-52bc#eslint-%D0%B2-create-react-app
+
+Самостоятельно:
+- Завязываем VS Code на претир и эслинт вашего проекта
+- Установить stylelint для css файлов (scss, module.scss)
+- Установить линтеры для прекомита и комита (ищем commitlint, husky, lint-staged)
+
+После всех этих манипуляций у вас будут помощники, которые будут следить за оформлением кода, не дадут коду, который имеет ошибки попасть в удаленный репозиторий. Также эти поомщники не позволят допустить глупые ошибки в коде, среда будет их подсвечивать
+
+- Что такое TypeScript? Зачем он нужен? Для чего tsconfig файл?
+- Что такое eslint? Зачем он нужен? Для чего eslintrc файл?
+- Что такое eslint? Зачем он нужен? Для чего eslintrc файл?
+- Что такое prettier? Зачем он нужен? Для чего prettierrc файл?
+- Что такое stylelint? Зачем он нужен? Для чего stylelint файл?
+- Зачем нужно настраивать проверку файлов при коммите?
+
